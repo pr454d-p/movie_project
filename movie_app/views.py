@@ -22,7 +22,7 @@ def add_movie(request):
         image = request.FILES['image']
         movie = Movie(title=title,description=description,year=year,image=image)
         movie.save()
-    return render (request,'add-movie.html')
+    return render (request,'index.html')
 
 
 
