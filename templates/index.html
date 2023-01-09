@@ -15,5 +15,10 @@
         </div> 
         {% endfor %} 
     </div>
+    <div class="row">
+        <div class="col-md-2 mt-3">
+            <a href="{% url 'movie_app:add_movie' %}" class="btn btn-success">Add Movies</a>
+        </div>
+    </div>
 </div>
 {% endblock %}
